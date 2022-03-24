@@ -1,0 +1,16 @@
+characters = {
+	SSA_Jacob_Zuma = {
+		name = "Jacob Zuma" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SSA/Jacob_Zuma.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

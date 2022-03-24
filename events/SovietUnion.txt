@@ -1,0 +1,775 @@
+add_namespace = soviet
+
+#Anatoly Lukyanov Ascends to the Presidency
+country_event = {
+	id = soviet.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.1" }
+	title = soviet.1.t
+	desc = soviet.1.d
+	picture = report_Anatoly_Lukyanov_Ascends
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			kill_ideology_leader = moderate_socialist
+			
+			create_country_leader = {
+				name = "Anatoly Lukyanov"
+				desc = "POLITICS_ANATOLY_LUKYANOV_DESC"
+				picture = "Anatoly_Lukyanov.dds"
+				expire = "1965.1.1"
+				ideology = moderate_socialist_ideology
+				traits = {
+		
+				}
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Dear Lord
+	option = { 
+		name = soviet.1.o1
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.2
+				days = 4
+			}
+		}
+		
+	}
+	
+}
+
+#Latvian Nationalists Protest
+country_event = {
+	id = soviet.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.2" }
+	title = soviet.2.t
+	desc = soviet.2.d
+	picture = report_Latvian_Nationalist_Protests
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Dear Lord
+	option = { 
+		name = soviet.2.o1
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.3
+				days = 3
+			}
+		}
+	}
+	
+}
+
+#Nationalists Across The Union Join In
+country_event = {
+	id = soviet.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.3" }
+	title = soviet.3.t
+	desc = soviet.3.d
+	picture = report_More_Union_Protests
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Be Safe!
+	option = { 
+		name = soviet.3.o1
+		hidden_effect = {
+			country_event = {
+				id = soviet.5
+				days = 3
+			}
+		}
+	}
+	
+	#Take Precaution
+	option = { 
+		name = soviet.3.o2
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.4
+				days = 15
+			}
+		}
+	}
+	
+}
+
+#Ligachev Takes Over
+country_event = {
+	id = soviet.4
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.4" }
+	title = soviet.4.t
+	desc = soviet.4.d
+	picture = report_ligachevs_coup
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			retire_ideology_leader = moderate_socialist
+		
+			set_politics = {
+				ruling_party = reformed_communist
+			}
+		
+			create_country_leader = {
+				name = "Yegor Ligachev"
+				desc = "POLITICS_YEGOR_LIGACHYOV_DESC"
+				picture = "Yegor_Ligachyov.dds"
+				expire = "1965.1.1"
+				ideology = reformed_communist_ideology 
+				traits = {
+		
+				}
+			}
+			
+			create_country_leader = {
+				name = "Vladimir Ivashko"
+				desc = "POLITICS_VLADIMIR_IVASHKO_DESC"
+				picture = "Vladimir_Ivashko.dds"
+				expire = "1965.1.1"
+				ideology = moderate_socialist_ideology 
+				traits = {
+		
+				}
+			}
+			
+			set_country_flag = LIGACHEV_COUP
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#This will only make things worse, won't it?
+	option = { 
+		name = soviet.4.o1
+		add_stability = -0.15
+		add_political_power = -50
+		
+	}
+	
+}
+
+#Attack On Verkhovna Rada Building In Kiev
+country_event = {
+	id = soviet.5
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.5" }
+	title = soviet.5.t
+	desc = soviet.5.d
+	picture = report_Verkhovna_Attack
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#The Emergency Services!
+	option = { 
+		name = soviet.5.o1
+		hidden_effect = {
+			country_event = {
+				id = soviet.6
+				days = 4
+			}
+		}
+	}
+	
+	#Military Force!
+	option = { 
+		name = soviet.5.o2
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.4
+				days = 15
+			}
+		}
+	}
+	
+}
+
+#Popular Lebed chosen as Democratic Union Candidate
+country_event = {
+	id = soviet.6
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.6" }
+	title = soviet.6.t
+	desc = soviet.6.d
+	picture = report_Lebed_Chosen
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_popularity = {
+				ideology = national_conservative
+				popularity = 0.05
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Congratulations!
+	option = { 
+		name = soviet.6.o1
+		
+		create_country_leader = {
+			name = "Alexander Lebed"
+			desc = "POLITICS_ALEXANDER_LEBED_DESC"
+			picture = "Alexander_Lebed.dds"
+			expire = "1965.1.1"
+			ideology = national_conservative_ideology 
+			traits = {
+		
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.7
+				days = 5
+			}
+		}
+		
+	}
+	
+	#He must dissappear!
+	option = { 
+		name = soviet.6.o2
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.4
+				days = 15
+			}
+		}
+	}
+	
+}
+
+#CCoCPSU Meet To Nominate Candidate
+country_event = {
+	id = soviet.7
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.7" }
+	title = soviet.7.t
+	desc = soviet.7.d
+	picture = report_1992_CPSU_candidate_nomination
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Ryzhkov
+	option = { 
+		name = soviet.7.o1
+		
+		set_country_flag = ryzhkov_chosen_1992
+		add_popularity = {
+			ideology = moderate_socialist
+			popularity = 0.03
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.11
+				days = 35
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.12
+				days = 5
+			}
+		}
+		
+	}
+	
+	#Yavlinsky
+	option = { 
+		name = soviet.7.o2
+		
+		set_country_flag = yavlinsky_chosen_1992
+		add_popularity = {
+			ideology = progressive
+			popularity = 0.03
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.8
+				days = 5
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.12
+				days = 5
+			}
+		}
+		
+	}
+	
+	#Andreyeva
+	option = { 
+		name = soviet.7.o3
+		
+		set_country_flag = andreyeva_chosen_1992
+		add_popularity = {
+			ideology = communist
+			popularity = 0.03
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.9
+				days = 5
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.12
+				days = 5
+			}
+		}
+		
+	}
+	
+	#Take Control!
+	option = { 
+		name = soviet.7.o4
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.4
+				days = 15
+			}
+		}
+	}
+	
+}
+
+#Alexander Rutskoy Leaves CPSU
+country_event = {
+	id = soviet.8
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.8" }
+	title = soviet.8.t
+	desc = soviet.8.d
+	picture = report_Rutskoy_defects
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Traitor!
+	option = { 
+		name = soviet.8.o1
+		
+		add_popularity = {
+			ideology = progressive
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = moderate_socialist
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = -0.01
+		}
+	}
+	
+}
+
+#Liberal Defections
+country_event = {
+	id = soviet.9
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.9" }
+	title = soviet.9.t
+	desc = soviet.9.d
+	picture = report_Liberals_defects
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Traitor!
+	option = { 
+		name = soviet.9.o1
+		
+		add_popularity = {
+			ideology = progressive
+			popularity = -0.01
+		}
+		add_popularity = {
+			ideology = moderate_socialist
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = communist
+			popularity = -0.02
+		}
+	}
+	
+}
+
+#Early Russian Presidential Election
+country_event = {
+	id = soviet.10
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.10" }
+	title = soviet.10.t
+	desc = soviet.10.d
+	picture = report_early_russian_presidentials
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Yeltsin Wins!
+	option = { 
+		name = soviet.10.o1
+		
+		add_popularity = {
+			ideology = reactionary_nationalist
+			popularity = 0.03
+		}
+	}
+	
+	#Gennady Zyuganov!
+	option = { 
+		name = soviet.10.o2
+		
+		add_popularity = {
+			ideology = communist
+			popularity = 0.03
+		}
+	}
+	
+}
+
+#Early Russian Presidential Election
+country_event = {
+	id = soviet.11
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.10" }
+	hidden = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Union Stands!
+	option = { 
+		name = soviet.11.o1
+		
+		if = {
+			limit = { 
+				country_exists = SOV
+				NOT = {
+					has_country_flag = LIGACHEV_COUP
+				}
+			}
+			SOV = { country_event = soviet.10 }
+		}
+	}
+	
+}
+
+#Zhirinovsky Craze!
+country_event = {
+	id = soviet.12
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.12" }
+	title = soviet.12.t
+	desc = soviet.12.d
+	#picture = report_early_russian_presidentials
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			add_popularity = {
+				ideology = reactionary_nationalist
+				popularity = 0.01
+			}
+			
+			add_popularity = {
+				ideology = ultranationalist
+				popularity = 0.02
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Watch Him Closely
+	option = { 
+		name = soviet.12.o1
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.13
+				days = 6
+			}
+		}
+	}
+	
+}
+
+#Lenin Statue Vandalized
+country_event = {
+	id = soviet.13
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.13" }
+	title = soviet.13.t
+	desc = soviet.13.d
+	#picture = report_early_russian_presidentials
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Fines Are Sufficient
+	option = { 
+		name = soviet.13.o1
+		hidden_effect = {
+			country_event = {
+				id = soviet.14
+				days = 6
+			}
+		}
+		
+	}
+	
+	#Prison Is The Only Solution
+	option = { 
+		name = soviet.13.o2
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.4
+				days = 15
+			}
+		}
+		
+	}
+	
+}
+
+#CPSU Facing Strong Opposition 
+country_event = {
+	id = soviet.14
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.14" }
+	title = soviet.14.t
+	desc = soviet.14.d
+	#picture = report_early_russian_presidentials
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#We Accept What Happens
+	option = { 
+		name = soviet.14.o1
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.15
+				days = 6
+			}
+		}
+	}
+	
+	#All Eyes On The Polls
+	option = { 
+		name = soviet.14.o2
+		
+		hidden_effect = {
+			country_event = {
+				id = soviet.4
+				days = 15
+			}
+		}
+		
+	}
+	
+}
+
+#Emergency Election
+country_event = {
+	id = soviet.15
+	immediate = { log = "[GetDateText]: [Root.GetName]: event soviet.15" }
+	title = soviet.15.t
+	desc = {	
+		trigger = {
+			has_country_flag = ryzhkov_chosen_1992
+		}
+		name = soviet.15.d1
+	}
+	
+	desc = {	
+		trigger = {
+			has_country_flag = andreyeva_chosen_1992
+		}
+		name = soviet.15.d2
+	}
+	
+	desc = {	
+		trigger = {
+			has_country_flag = yavlinsky_chosen_1992
+		}
+		name = soviet.15.d3
+	}
+	
+	#picture = report_early_russian_presidentials
+	
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	#Ryzhkov
+	option = { 
+		name = soviet.15.o1
+		trigger = {
+			has_country_flag = ryzhkov_chosen_1992
+		}
+		
+		create_country_leader = {
+			name = "Nikolai Ryzhkov"
+			desc = "POLITICS_NIKOLAI_RYZHKOV_DESC"
+			picture = "Nikolai_Ryzhkov.dds"
+			expire = "1965.1.1"
+			ideology = moderate_socialist_ideology 
+			traits = {
+		
+			}
+		}
+		
+		set_country_flag = ryzhkov_1992_president
+		
+	}
+	
+	#Andreyeva
+	option = { 
+		name = soviet.15.o2
+		trigger = {
+			has_country_flag = andreyeva_chosen_1992
+		}
+		
+		set_politics = {
+			ruling_party = communist
+		}
+		set_country_flag = andreyeva_1992_president
+	}
+	
+	#Yavlinsky
+	option = { 
+		name = soviet.15.o3
+		trigger = {
+			has_country_flag = yavlinsky_chosen_1992
+		}
+		
+		set_politics = {
+			ruling_party = progressive
+		}
+		set_country_flag = yavlinsky_1992_president
+	}
+	
+	#Lebed!
+	option = { 
+		name = soviet.15.o4
+		set_politics = {
+			ruling_party = national_conservative
+		}
+		set_country_flag = lebed_1992_president
+	}
+	
+	#Zhirinovsky
+	option = { 
+		name = soviet.15.o5
+		set_politics = {
+			ruling_party = reactionary_nationalist
+		}
+		set_country_flag = zhirinovsky_1992_president
+	}
+	
+	##Eventually I will add an option that allows for a random candidate to be chosen. With 40% going to the CPSU candidate, 25% going to Lebed, and 20% going to Zhirinovsky, the last 15% will be a secret candidate that has not yet been chosen.
+	
+}

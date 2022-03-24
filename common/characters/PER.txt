@@ -1,0 +1,16 @@
+characters = {
+	PER_Reza_Shah_II = {
+		name = "Reza Shah II" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/PER/Reza_Shah_II.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

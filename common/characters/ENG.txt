@@ -1,0 +1,16 @@
+characters = {
+	ENG_Mark_Thatcher = {
+		name = "Mark Thatcher" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/ENG/Mark_Thatcher.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,16 @@
+characters = {
+	FRA_Philippe_de_Villiers = {
+		name = "Philippe de Villiers" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/FRA/Philippe_de_Villiers.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

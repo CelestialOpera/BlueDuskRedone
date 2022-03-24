@@ -1,0 +1,16 @@
+characters = {
+	SOV_Yegor_Ligachyov = {
+		name = "Yegor Ligachyov" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Yegor_Ligachyov.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_communist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

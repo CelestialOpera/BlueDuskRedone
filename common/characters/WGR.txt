@@ -1,0 +1,16 @@
+characters = {
+	WGR_Georg_Milbradt = {
+		name = "Georg Milbradt" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/WGR/Georg_Milbradt.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

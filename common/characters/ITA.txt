@@ -1,0 +1,16 @@
+characters = {
+	ITA_Alberto_Arbasino = {
+		name = "Alberto Arbasino" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/ITA/Alberto_Arbasino.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

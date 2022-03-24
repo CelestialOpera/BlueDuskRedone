@@ -1,0 +1,16 @@
+characters = {
+	DDR_Gregor_Gysi = {
+		name = "Gregor Gysi" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DDR/Gregor_Gysi.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_communist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

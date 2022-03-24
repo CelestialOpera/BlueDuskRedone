@@ -1,0 +1,16 @@
+characters = {
+	PRC_Wu_Bangguo = {
+		name = "Wu Bangguo" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/PRC/Wu_Bangguo.dds"
+			}
+		}
+		country_leader = {
+			ideology = communist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	
