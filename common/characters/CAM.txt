@@ -1,0 +1,16 @@
+characters = {
+	CAM_Heng_Samrin = {
+		name = "Heng Samrin" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/CAM/Heng_Samrin.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_communist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

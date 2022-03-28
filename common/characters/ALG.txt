@@ -1,0 +1,16 @@
+characters = {
+	ALG_Chadli_Bendjedid = {
+		name = "Chadli Bendjedid" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/ALG/Chadli_Bendjedid.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -41,10 +41,10 @@
  
  ITA_national_conservative_party:0 "DC-Nazionalistas"
  ITA_national_conservative_party_long:0 "Democrazia Cristiana(Fazione Nazionalista) - Christian Democracy(Nationalist Faction)" #Nazionalistas are opposed to a second historic compromise and actively want to work against Communuists
- ITA_moderate_conservative_party:0 "DC-Primavera"
- ITA_moderate_conservative_party_long:0 "Democrazia Cristiana(Primavera) - Christian Democracy(Spring)" #Primavera is not opposed to a second Historic Compromise.
- ITA_centrist_party:0 "DC-Dorotheans"
- ITA_centrist_party_long:0 "Democrazia Cristiana(Iniziativa Democratica) - Christian Democracy(Democratic Initiative)" #Dorotheans are opposed to a second historic compromise. 
+ ITA_moderate_conservative_party:0 "DC-Dorotheans"
+ ITA_moderate_conservative_party_long:0 "Democrazia Cristiana(Iniziativa Democratica) - Christian Democracy(Democratic Initiative)" Dorotheans are opposed to a second historic compromise.
+ ITA_centrist_party:0 "DC-Primavera"
+ ITA_centrist_party_long:0 "Democrazia Cristiana(Primavera) - Christian Democracy(Spring)" ##Primavera is not opposed to a second Historic Compromise.
  ITA_social_liberal_party:0 "Repubblicani"
  ITA_social_liberal_party_long:0 "Partito Repubblicano Italiano - Italian Republican Party"
  ITA_progressive_party:0 "Socialistas"

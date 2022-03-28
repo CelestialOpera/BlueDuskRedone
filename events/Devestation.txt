@@ -83,7 +83,7 @@ news_event = {
 	option = {
 		trigger = {
 			is_ai = no
-			is_rogue_nation = yes
+			is_rogue_nation = no
 		}
 		name = devestation.2.o2
 		
@@ -161,6 +161,11 @@ news_event = {
 				province = 3878
 				use_nuke = yes
 			}
+			
+			set_global_flag = Super_Event_Visible
+			set_global_flag = GLOBAL_NYC_devestation_Super_Event_Visible
+			
+			sound_effect = "DEVESTATION_sound"
 			
 			SOV = {
 				country_event = {

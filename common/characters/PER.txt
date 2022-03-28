@@ -1,13 +1,13 @@
 characters = {
-	PER_Reza_Shah_II = {
-		name = "Reza Shah II" 
+	PER_Hussein_Ali_Montazeri = {
+		name = "Hussein-Ali Montazeri" 
 		portraits = {
 			civilian={
-				large="gfx/leaders/PER/Reza_Shah_II.dds"
+				large="gfx/leaders/PER/Hussein_Ali_Montazeri.dds"
 			}
 		}
 		country_leader = {
-			ideology = national_conservative_ideology
+			ideology = reactionary_nationalist_ideology
 			expire = "1950.1.1.1"
 			id = -1
 		}

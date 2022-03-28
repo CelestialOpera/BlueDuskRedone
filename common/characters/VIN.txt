@@ -1,0 +1,16 @@
+characters = {
+	VIN_Nguyen_Van_Linh = {
+		name = "Nguyen Van Linh" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/VIN/Nguyen_Van_Linh.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

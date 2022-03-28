@@ -1,0 +1,17 @@
+characters = {
+	POR_Anibal_Cavaco_Silva = {
+		name = "Aníbal Cavaco Silva" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/POR/Anibal_Cavaco_Silva.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

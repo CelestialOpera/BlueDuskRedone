@@ -12,17 +12,11 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			kill_ideology_leader = moderate_socialist
+			retire_character = SOV_Mikhail_Gorbachev
 			
-			create_country_leader = {
-				name = "Anatoly Lukyanov"
-				desc = "POLITICS_ANATOLY_LUKYANOV_DESC"
-				picture = "Anatoly_Lukyanov.dds"
-				expire = "1965.1.1"
-				ideology = moderate_socialist_ideology
-				traits = {
-		
-				}
+			SOV_Anatoly_Lukyanov = {
+				promote_character = yes
+				promote_character = moderate_socialist_ideology
 			}
 		}
 	}
@@ -131,32 +125,15 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			retire_ideology_leader = moderate_socialist
+			#retire_ideology_leader = moderate_socialist
 		
 			set_politics = {
 				ruling_party = reformed_communist
 			}
-		
-			create_country_leader = {
-				name = "Yegor Ligachev"
-				desc = "POLITICS_YEGOR_LIGACHYOV_DESC"
-				picture = "Yegor_Ligachyov.dds"
-				expire = "1965.1.1"
-				ideology = reformed_communist_ideology 
-				traits = {
-		
-				}
-			}
 			
-			create_country_leader = {
-				name = "Vladimir Ivashko"
-				desc = "POLITICS_VLADIMIR_IVASHKO_DESC"
-				picture = "Vladimir_Ivashko.dds"
-				expire = "1965.1.1"
-				ideology = moderate_socialist_ideology 
-				traits = {
-		
-				}
+			SOV_Vladimir_Ivashko = {
+				promote_character = yes
+				promote_character = moderate_socialist_ideology
 			}
 			
 			set_country_flag = LIGACHEV_COUP
@@ -254,6 +231,11 @@ country_event = {
 		
 			}
 		}
+		
+			SOV_Alexander_Lebed = {
+				promote_character = yes
+				promote_character = national_conservative_ideology
+			}
 		
 		hidden_effect = {
 			country_event = {
@@ -711,15 +693,9 @@ country_event = {
 			has_country_flag = ryzhkov_chosen_1992
 		}
 		
-		create_country_leader = {
-			name = "Nikolai Ryzhkov"
-			desc = "POLITICS_NIKOLAI_RYZHKOV_DESC"
-			picture = "Nikolai_Ryzhkov.dds"
-			expire = "1965.1.1"
-			ideology = moderate_socialist_ideology 
-			traits = {
-		
-			}
+		SOV_Nikolai_Ryzhkov = {
+			promote_character = yes
+			promote_character = national_conservative_ideology
 		}
 		
 		set_country_flag = ryzhkov_1992_president

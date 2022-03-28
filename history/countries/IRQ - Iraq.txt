@@ -17,15 +17,16 @@ set_politics = {
 }
 
 set_popularities = {
-	communist = 0
-	reformed_communist = 0
-	revolutionary_socialist = 0
-	moderate_socialist = 0
-	progressive = 0
-	social_liberal = 0
-	centrist = 0
-	moderate_conservative = 0
-	national_conservative = 0
-	reactionary_nationalist = 0
-	ultranationalist = 100
+	ultranationalist = 23
+	national_bolshevik = 0
+	reactionary_nationalist = 11
+	national_conservative = 13
+	moderate_conservative = 4
+	centrist = 2
+	social_liberal = 11
+	progressive = 7
+	moderate_socialist = 12
+	reformed_communist = 3
+	revolutionary_socialist = 2
+	communist = 12
 }

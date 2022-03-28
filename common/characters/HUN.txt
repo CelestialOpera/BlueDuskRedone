@@ -1,0 +1,17 @@
+characters = {
+	HUN_Jozsef_Antall = {
+		name = "József Antall" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/HUN/Jozsef_Antall.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

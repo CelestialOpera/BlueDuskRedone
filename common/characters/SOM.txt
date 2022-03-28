@@ -1,0 +1,17 @@
+characters = {
+	SOM_Ali_Mahdi_Muhammad = {
+		name = "Ali Mahdi Muhammad" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOM/Ali_Mahdi_Muhammad.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

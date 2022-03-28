@@ -1,0 +1,17 @@
+characters = {
+	IRE_Charles_Haughey = {
+		name = "Charles Haughey" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/IRE/Charles_Haughey.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

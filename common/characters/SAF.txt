@@ -1,0 +1,17 @@
+characters = {
+	SAF_Denis_Worrall = {
+		name = "Denis Worrall" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SAF/Denis_Worrall.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

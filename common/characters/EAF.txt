@@ -1,0 +1,17 @@
+characters = {
+	EAF_Yoweri_Museveni = {
+		name = "Yoweri Museveni" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/EAF/Yoweri_Museveni.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

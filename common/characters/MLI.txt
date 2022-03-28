@@ -1,0 +1,16 @@
+characters = {
+	MLI_Amadou_Toumani_Toure = {
+		name = "Amadou Toumani Touré" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/MLI/Amadou_Toumani_Toure.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

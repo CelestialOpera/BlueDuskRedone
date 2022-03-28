@@ -1,13 +1,13 @@
 characters = {
-	FRA_Philippe_de_Villiers = {
-		name = "Philippe de Villiers" 
+	FRA_Michel_Rocard = {
+		name = "Michel Rocard" 
 		portraits = {
 			civilian={
-				large="gfx/leaders/FRA/Philippe_de_Villiers.dds"
+				large="gfx/leaders/FRA/Michel_Rocard.dds"
 			}
 		}
 		country_leader = {
-			ideology = moderate_conservative_ideology
+			ideology = progressive_ideology
 			expire = "1950.1.1.1"
 			id = -1
 		}

@@ -1,0 +1,16 @@
+characters = {
+	YEM_Haidar_Abu_Bakr_al_Attas = {
+		name = "Haidar Abu Bakr al-Attas" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/YEM/Haidar_Abu_Bakr_al_Attas.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

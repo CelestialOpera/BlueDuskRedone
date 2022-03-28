@@ -1,0 +1,17 @@
+characters = {
+	POL_Roman_Malinowski = {
+		name = "Roman Malinowski" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/POL/Roman_Malinowski.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

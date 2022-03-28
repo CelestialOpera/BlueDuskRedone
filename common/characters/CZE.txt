@@ -1,0 +1,16 @@
+characters = {
+	CZE_Ladislav_Adamec = {
+		name = "Ladislav Adamec" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/CZE/Ladislav_Adamec.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_communist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

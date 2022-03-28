@@ -39,6 +39,8 @@
  CHL_communist_adj:0 "Chinese"
  
  
+ ###This list is 100% up for revision
+ 
  CHL_ultranationalist_party:0 "Avanzada Nacional"
  CHL_ultranationalist_party_long:0 "Avanzada Nacional - National Advance" #Fatherland and Liberty can show up in game
  CHL_national_bolshevik_party:0 "-"

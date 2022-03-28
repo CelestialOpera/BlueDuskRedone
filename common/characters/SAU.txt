@@ -1,0 +1,17 @@
+characters = {
+	SAU_King_Fahd = {
+		name = "King Fahd" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SAU/King_Fahd.dds"
+			}
+		}
+		country_leader = {
+			ideology = reactionary_nationalist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

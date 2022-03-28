@@ -1,0 +1,16 @@
+characters = {
+	COL_Cesar_Gaviria = {
+		name = "César Gaviria" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/COL/Cesar_Gaviria.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

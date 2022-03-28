@@ -1,0 +1,184 @@
+characters = {
+	DEN_Niels_Helveg_Petersen = {
+		name = "Niels Helveg Petersen" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Niels_Helveg_Petersen.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Marianne_Jelved = {
+		name = "Marianne Jelved" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Marianne_Jelved.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Svend_Auken = {
+		name = "Svend Auken" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Svend_Auken.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Gert_Petersen = {
+		name = "Gert Petersen" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Gert_Petersen.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Collective_Leadership_Denmark = {
+		name = "Collective Leadership" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Collective_Leadership_Denmark_RGA.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_communist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Søren_Søndergaard = {
+		name = "Søren Søndergaard" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Søren_Søndergaard.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Klaus_Riis = {
+		name = "Klaus Riis" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Klaus_Riis.dds"
+			}
+		}
+		country_leader = {
+			ideology = communist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Uffe_Ellemann_Jensen = {
+		name = "Uffe Ellemann-Jensen" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Uffe_Ellemann_Jensen.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Poul_Schlüter = {
+		name = "Poul Schlüter" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Poul_Schlüter.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Flemming_Kofod_Svendsen = {
+		name = "Flemming Kofod-Svendsen" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Flemming_Kofod_Svendsen.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Pia_Kjærsgaard = {
+		name = "Pia Kjærsgaard" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Pia_Kjærsgaard.dds"
+			}
+		}
+		country_leader = {
+			ideology = reactionary_nationalist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Povl_Heinrich_Riis_Knudsen = {
+		name = "Povl Heinrich Riis-Knudsen" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Povl_Heinrich_Riis_Knudsen.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_bolshevik_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	DEN_Jonni_Hansen = {
+		name = "Jonni Hansen" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/DEN/Jonni_Hansen.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

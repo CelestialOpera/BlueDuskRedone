@@ -20,6 +20,7 @@ country_event = {
 	#		FRA = { country_event = france.1 }
 	#	}
 	#	
+	#	set_global_flag = Super_Event_Visible
 	#}
 }
 

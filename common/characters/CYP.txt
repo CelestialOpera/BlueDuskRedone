@@ -1,0 +1,16 @@
+characters = {
+	CYP_George_Vassiliou = {
+		name = "George Vassiliou" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/CYP/George_Vassiliou.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

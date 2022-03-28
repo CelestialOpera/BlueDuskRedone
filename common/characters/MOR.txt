@@ -1,0 +1,17 @@
+characters = {
+	MOR_Maati_Bouabid = {
+		name = "Maati Bouabid" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/MOR/Maati_Bouabid.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

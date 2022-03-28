@@ -1,0 +1,17 @@
+characters = {
+	LAO_Kaysone_Phomvihane = {
+		name = "Kaysone Phomvihane" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/LAO/Kaysone_Phomvihane.dds"
+			}
+		}
+		country_leader = {
+			ideology = communist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

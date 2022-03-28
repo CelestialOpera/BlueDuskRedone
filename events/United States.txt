@@ -12,18 +12,13 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			kill_ideology_leader = social_liberal
+			retire_character = USA_Jerry_Brown
 			
-			create_country_leader = {
-				name = "Janet Reno"
-				desc = "POLITICS_JANET RENO_DESC"
-				picture = "Janet_Reno.dds"
-				expire = "1965.1.1"
-				ideology = social_liberal_ideology
-				traits = {
-		
-				}
+			USA_Janet_Reno = {
+				promote_character = yes
+				promote_character = social_liberal_ideology
 			}
+			
 		}
 	}
 	

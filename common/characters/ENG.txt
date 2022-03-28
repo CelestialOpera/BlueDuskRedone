@@ -1,13 +1,27 @@
 characters = {
-	ENG_Mark_Thatcher = {
-		name = "Mark Thatcher" 
+	ENG_Neil_Kinnock = {
+		name = "Neil Kinnock" 
 		portraits = {
 			civilian={
-				large="gfx/leaders/ENG/Mark_Thatcher.dds"
+				large="gfx/leaders/ENG/Neil_Kinnock.dds"
 			}
 		}
 		country_leader = {
-			ideology = moderate_conservative_ideology
+			ideology = progressive_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	ENG_John_Smith = {
+		name = "John Smith" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/ENG/John_Smith.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
 			expire = "1950.1.1.1"
 			id = -1
 		}

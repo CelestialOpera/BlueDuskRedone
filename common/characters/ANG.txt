@@ -1,0 +1,16 @@
+characters = {
+	ANG_Jose_Eduardo_dos_Santos = {
+		name = "José Eduardo dos Santos" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/ANG/Jose_Eduardo_dos_Santos.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

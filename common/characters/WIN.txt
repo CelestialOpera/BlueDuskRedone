@@ -1,0 +1,16 @@
+characters = {
+	WIN_Michael_Manley = {
+		name = "Michael Manley" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/WIN/Michael_Manley.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

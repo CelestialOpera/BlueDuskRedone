@@ -1,0 +1,16 @@
+characters = {
+	ETH_Dawud_Ibsa_Ayana = {
+		name = "Dawud Ibsa Ayana" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/ETH/Dawud_Ibsa_Ayana.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

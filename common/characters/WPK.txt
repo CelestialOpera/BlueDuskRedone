@@ -1,0 +1,17 @@
+characters = {
+	WPK_Kim_Il_Sung = {
+		name = "Kim Il Sung" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/WPK/Kim_Il_Sung.dds"
+			}
+		}
+		country_leader = {
+			ideology = communist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

@@ -1,0 +1,16 @@
+characters = {
+	TUR_Turgut_Urzal = {
+		name = "Turgut Urzal" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/TUR/Turgut_Urzal.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

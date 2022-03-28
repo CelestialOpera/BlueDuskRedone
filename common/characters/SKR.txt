@@ -1,0 +1,17 @@
+characters = {
+	SKR_Roh_Tae_woo = {
+		name = "Roh Tae-woo" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SKR/Roh_Tae_woo.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

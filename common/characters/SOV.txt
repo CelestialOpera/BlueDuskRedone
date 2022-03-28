@@ -12,5 +12,215 @@ characters = {
 			id = -1
 		}
 	}
+	
+	SOV_Mikhail_Gorbachev = {
+		name = "Mikhail Gorbachev" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Mikhail_Gorbachev.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Sergey_Biets = {
+		name = "Sergei Biets" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Sergey_Biets.dds"
+			}
+		}
+		country_leader = {
+			ideology = revolutionary_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Nina_Andreyeva = {
+		name = "Nina Andreyeva" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Nina_Andreyeva.dds"
+			}
+		}
+		country_leader = {
+			ideology = communist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Grigory_Yavlinsky = {
+		name = "Grigory Yavlinsky" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Grigory_Yavlinsky.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Yevgeny_Primakov = {
+		name = "Yevgeny Primakov" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Yevgeny_Primakov.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Vladimir_Bukovsky = {
+		name = "Vladimir_Bukovsky" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Vladimir_Bukovsky.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Nikolay_Travkin = {
+		name = "Nikolay Travkin" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Nikolay_Travkin.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Viktor_Chernomyrdin = {
+		name = "Viktor Chernomyrdin" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Viktor_Chernomyrdin.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Vladimir_Zhirinovsky = {
+		name = "Vladimir Zhirinovsky" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Vladimir_Zhirinovsky.dds"
+			}
+		}
+		country_leader = {
+			ideology = reactionary_nationalist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Eduard_Limonov = {
+		name = "Eduard Limonov" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Eduard_Limonov.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_bolshevik_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Dmitri_Vasilyev = {
+		name = "Dmitri Vasilyev" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Dmitri_Vasilyev.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Anatoly_Lukyanov = {
+		name = "Anatoly Lukyanov" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Anatoly_Lukyanov.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Vladimir_Ivashko = {
+		name = "Vladimir Ivashko" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Vladimir_Ivashko.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Nikolai_Ryzhkov = {
+		name = "Nikolai Ryzhkov" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Nikolai_Ryzhkov.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+	SOV_Alexander_Lebed = {
+		name = "Alexander Lebed" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SOV/Alexander_Lebed.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
 }
 	

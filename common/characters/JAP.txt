@@ -1,0 +1,16 @@
+characters = {
+	JAP_Toshiki_Kaifu = {
+		name = "Toshiki Kaifu" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/JAP/Toshiki_Kaifu.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

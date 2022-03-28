@@ -1,0 +1,17 @@
+characters = {
+	NGA_Abdulkadir_Balarabe_Musa = {
+		name = "Abdulkadir Balarabe Musa" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/NGA/Abdulkadir_Balarabe_Musa.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

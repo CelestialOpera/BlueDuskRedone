@@ -1,0 +1,16 @@
+characters = {
+	BEL_Guy_Spitaels = {
+		name = "Guy Spitaels" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/BEL/Guy_Spitaels.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

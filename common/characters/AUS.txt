@@ -1,0 +1,16 @@
+characters = {
+	AUS_Franz_Vranitzky = {
+		name = "Franz Vranitzky" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/AUS/Franz_Vranitzky.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

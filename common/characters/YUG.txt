@@ -1,9 +1,9 @@
 characters = {
-	YUG_Josip_Broz = {
-		name = "Josip Broz" 
+	YUG_Janez_Drnovsek = {
+		name = "Janez Drnovsek" 
 		portraits = {
 			civilian={
-				large="gfx/leaders/YUG/Josip_Broz.dds"
+				large="gfx/leaders/YUG/Janez_Drnovsek.dds"
 			}
 		}
 		country_leader = {

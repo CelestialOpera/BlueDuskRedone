@@ -12,18 +12,13 @@ country_event = {
 	
 	immediate = {
 		hidden_effect = {
-			kill_ideology_leader = progressive
+			retire_character = ENG_Neil_Kinnock
 			
-			create_country_leader = {
-				name = "John Smith"
-				desc = "POLITICS_JOHN_SMITH_DESC"
-				picture = "John_Smith.dds"
-				expire = "1965.1.1"
-				ideology = progressive_ideology
-				traits = {
-		
-				}
+			ENG_John_Smith = {
+				promote_character = yes
+				promote_character = progressive_ideology
 			}
+			
 		}
 	}
 	

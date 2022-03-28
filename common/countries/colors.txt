@@ -165,9 +165,9 @@ ELS = {
 	color = rgb { 152 130 191 }
 	color_ui = rgb { 198 169 248 }
 }
-ETH = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+ETH = { #DONE
+	color = rgb { 88 126 70 }
+	color_ui = rgb { 88 126 70 }
 }
 GUA = {
 	color = rgb { 72 49 112 }
@@ -286,21 +286,21 @@ HAI = {
 	color = rgb { 174 113 113 }
 	color_ui = rgb { 174 113 113 }
 }
-YEM = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+YEM = { #DONE
+	color = rgb { 136 64 16 }
+	color_ui = rgb { 136 64 16 }
 }
-OMA = {
-	color = rgb { 155 101 107 }
-	color_ui = rgb { 202 131 139 }
+OMA = { #DONE
+	color = rgb { 219 22 27 }
+	color_ui = rgb { 219 22 27 }
 }
 SLO = {
 	color = rgb { 158  161  188 }
 	color_ui = rgb { 255 255 255 }
 }
-RAJ = {
-	color = rgb { 226  135  40 }
-	color_ui = rgb { 226  135  40 }
+RAJ = { #DONE
+	color = rgb { 200  135  40 }
+	color_ui = rgb { 200  135  40 }
 }
 
 CRO = {
@@ -308,9 +308,9 @@ CRO = {
 	color_ui = rgb { 230 255 122 }
 }
 
-PRC = {
-	color = rgb { 245 12 55 }
-	color_ui = rgb { 178 34 60 }
+PRC = { #DONE
+	color = rgb { 158 0 0 }
+	color_ui = rgb { 158 0 0 }
 }
 
 GXC = {

@@ -16,14 +16,14 @@ country_event = { #Attack on New York
 		add_stability = -0.05
 		add_war_support = -0.05
 		remove_ideas = idea_denmark_margrethe_ii
-		create_country_leader = {
-			name = "Marianne Jelved"
-			desc = "POLITICS_MARIANNE_JELVED_DESC"
-			picture = "Marianne_Jelved.dds"
-			ideology = social_liberal_ideology
-			traits = {
-			}
+		
+		retire_character = DEN_Niels_Helveg_Petersen
+		
+		DEN_Marianne_Jelved = {
+			promote_character = yes
+			promote_character = social_liberal_ideology
 		}
+		
 		hidden_effect = {
 			country_event = {
 				id = denmark.2

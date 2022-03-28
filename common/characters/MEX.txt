@@ -1,0 +1,17 @@
+characters = {
+	MEX_Cuauhtemoc_Cardenas = {
+		name = "Cuauhtémoc Cárdenas" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/MEX/Cuauhtemoc_Cardenas.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

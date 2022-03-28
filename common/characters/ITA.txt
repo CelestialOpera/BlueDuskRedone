@@ -1,13 +1,13 @@
 characters = {
-	ITA_Alberto_Arbasino = {
-		name = "Alberto Arbasino" 
+	ITA_Giulio_Andreotti = {
+		name = "Giulio Andreotti" 
 		portraits = {
 			civilian={
-				large="gfx/leaders/ITA/Alberto_Arbasino.dds"
+				large="gfx/leaders/ITA/Giulio_Andreotti.dds"
 			}
 		}
 		country_leader = {
-			ideology = social_liberal_ideology
+			ideology = moderate_conservative_ideology
 			expire = "1950.1.1.1"
 			id = -1
 		}

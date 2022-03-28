@@ -1,0 +1,16 @@
+characters = {
+	VOL_Thomas_Sankara = {
+		name = "Thomas Sankara" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/VOL/Thomas_Sankara.dds"
+			}
+		}
+		country_leader = {
+			ideology = reformed_communist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

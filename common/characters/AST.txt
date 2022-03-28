@@ -1,0 +1,16 @@
+characters = {
+	AST_Bob_Hawke = {
+		name = "Bob Hawke" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/AST/Bob_Hawke.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

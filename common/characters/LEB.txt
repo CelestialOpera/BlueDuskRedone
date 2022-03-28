@@ -1,0 +1,16 @@
+characters = {
+	LEB_Dany_Chamoun = {
+		name = "Dany Chamoun" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/LEB/Dany_Chamoun.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

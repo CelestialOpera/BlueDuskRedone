@@ -1,0 +1,17 @@
+characters = {
+	MLT_Eddie_Fenech_Adami = {
+		name = "Eddie Fenech Adami" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/MLT/Eddie_Fenech_Adami.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

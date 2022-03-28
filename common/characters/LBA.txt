@@ -1,0 +1,17 @@
+characters = {
+	LBA_Muammar_Gaddafi = {
+		name = "Muammar Gaddafi" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/LBA/Muammar_Gaddafi.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_bolshevik_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

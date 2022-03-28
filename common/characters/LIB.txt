@@ -1,0 +1,16 @@
+characters = {
+	LIB_Roosevelt_Johnson = {
+		name = "Roosevelt Johnson" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/LIB/Roosevelt_Johnson.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

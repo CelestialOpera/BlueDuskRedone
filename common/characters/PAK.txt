@@ -1,0 +1,16 @@
+characters = {
+	PAK_Imran_Farooq = {
+		name = "Imran Farooq" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/PAK/Imran_Farooq.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

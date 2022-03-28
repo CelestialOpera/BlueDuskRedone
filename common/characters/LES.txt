@@ -1,0 +1,16 @@
+characters = {
+	LES_Justin_Lekhanya = {
+		name = "Justin Lekhanya" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/LES/Justin_Lekhanya.dds"
+			}
+		}
+		country_leader = {
+			ideology = reactionary_nationalist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

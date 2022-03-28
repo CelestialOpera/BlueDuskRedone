@@ -1,0 +1,16 @@
+characters = {
+	BUL_Zhelyu_Zhelev = {
+		name = "Zhelyu Zhelev" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/BUL/Zhelyu_Zhelev.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

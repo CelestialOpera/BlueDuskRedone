@@ -1,0 +1,17 @@
+characters = {
+	ZIM_Robert_Mugabe = {
+		name = "Robert Mugabe" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/ZIM/Robert_Mugabe.dds"
+			}
+		}
+		country_leader = {
+			ideology = ultranationalist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

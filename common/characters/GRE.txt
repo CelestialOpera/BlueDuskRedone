@@ -1,0 +1,17 @@
+characters = {
+	GRE_Konstantinos_Mitsotakis = {
+		name = "Konstantinos Mitsotakis" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/GRE/Konstantinos_Mitsotakis.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

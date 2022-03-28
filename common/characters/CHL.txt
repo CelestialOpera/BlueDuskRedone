@@ -1,13 +1,13 @@
 characters = {
-	CHL_Jose_Antonio_Kast = {
-		name = "José Antonio Kast" 
+	CHL_Patricio_Aylwin = {
+		name = "Patricio Aylwin" 
 		portraits = {
 			civilian={
-				large="gfx/leaders/CHL/Jose_Antonio_Kast.dds"
+				large="gfx/leaders/CHL/Patricio_Aylwin.dds"
 			}
 		}
 		country_leader = {
-			ideology = national_conservative_ideology
+			ideology = moderate_conservative_ideology
 			expire = "1950.1.1.1"
 			id = -1
 		}

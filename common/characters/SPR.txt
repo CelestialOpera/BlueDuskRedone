@@ -1,0 +1,17 @@
+characters = {
+	SPR_Miquel_Roca = {
+		name = "Miquel Roca" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SPR/Miquel_Roca.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

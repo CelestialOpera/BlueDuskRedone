@@ -1,0 +1,16 @@
+characters = {
+	PAL_Yasser_Arafat = {
+		name = "Yasser Arafat" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/PAL/Yasser_Arafat.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

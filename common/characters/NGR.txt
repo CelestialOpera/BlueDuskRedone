@@ -1,0 +1,16 @@
+characters = {
+	NGR_Ali_Saibou = {
+		name = "Ali Saibou" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/NGR/Ali_Saibou.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

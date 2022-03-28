@@ -12,5 +12,19 @@ characters = {
 			id = -1
 		}
 	}
+	
+	USA_Janet_Reno = {
+		name = "Janet Reno" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/USA/Janet_Reno.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
 }
 	

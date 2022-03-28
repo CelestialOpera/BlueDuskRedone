@@ -1,0 +1,17 @@
+characters = {
+	JOR_King_Hussein_I_bin_Talal = {
+		name = "King Hussein I bin Talal" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/JOR/King_Hussein_I_bin_Talal.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

@@ -1,0 +1,16 @@
+characters = {
+	ARG_Isabel_Peron = {
+		name = "Isabel Perón" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/ARG/Isabel_Peron.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

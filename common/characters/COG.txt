@@ -1,0 +1,16 @@
+characters = {
+	COG_Azarias_Ruberwa = {
+		name = "Azarias Ruberwa" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/COG/Azarias_Ruberwa.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,17 @@
+characters = {
+	SUD_Abdel_Rahman_Swar_al_Dahab = {
+		name = "Abdel Rahman Swar al-Dahab" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SUD/Abdel_Rahman_Swar_al_Dahab.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

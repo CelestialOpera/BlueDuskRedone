@@ -1,0 +1,17 @@
+characters = {
+	ISR_Shimon_Peres = {
+		name = "Shimon Peres" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/ISR/Shimon_Peres.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

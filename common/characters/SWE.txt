@@ -1,0 +1,17 @@
+characters = {
+	SWE_Olof_Palme = {
+		name = "Olof Palme" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/SWE/Olof_Palme.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_socialist_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

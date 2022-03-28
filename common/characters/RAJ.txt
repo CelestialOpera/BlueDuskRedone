@@ -1,0 +1,16 @@
+characters = {
+	RAJ_Indira_Gandhi = {
+		name = "Indira Gandhi" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/RAJ/Indira_Gandhi.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

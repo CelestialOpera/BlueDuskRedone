@@ -1,0 +1,16 @@
+characters = {
+	GER_Johannes_Rau = {
+		name = "Johannes Rau" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/GER/Johannes_Rau.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
+	

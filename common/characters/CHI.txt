@@ -1,0 +1,17 @@
+characters = {
+	CHI_Lee_Teng_hui = {
+		name = "Lee Teng-hui" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/CHI/Lee_Teng_hui.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

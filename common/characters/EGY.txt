@@ -1,0 +1,17 @@
+characters = {
+	EGY_Anwar_Sadat = {
+		name = "Anwar Sadat" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/EGY/Anwar_Sadat.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+	
+}
+	

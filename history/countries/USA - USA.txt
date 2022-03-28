@@ -1,5 +1,8 @@
 ﻿capital = 840
 
+recruit_character = USA_Jerry_Brown
+recruit_character = USA_Janet_Reno
+
 set_research_slots = 4
 set_stability = 0.75
 set_war_support = 0
