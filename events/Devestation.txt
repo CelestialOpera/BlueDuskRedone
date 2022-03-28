@@ -83,7 +83,7 @@ news_event = {
 	option = {
 		trigger = {
 			is_ai = no
-			is_rogue_nation = no
+			is_rogue_nation = yes
 		}
 		name = devestation.2.o2
 		

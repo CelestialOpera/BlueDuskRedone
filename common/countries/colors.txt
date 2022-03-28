@@ -615,10 +615,6 @@ CHU = {
 	color = rgb { 191 128 64 }
 	color_ui = rgb { 134 89 45 }
 }
-WIN = {
-	color = rgb { 31 125 150 }
-	color_ui = rgb { 31 125 150 }
-}
 BHR = {
 	color = rgb { 150 31 35 }
 	color_ui = rgb { 150 31 35 }
@@ -678,6 +674,62 @@ SSA = {
 BOS = {
 	color = rgb { 30 142 30 }
 	color_ui = rgb { 30 142 30 }
+}
+EAF = {
+	color = rgb { 52 195 38 }
+	color_ui = rgb { 52 195 38 }
+}
+TUV = { #DONE
+	color = rgb { 195 52 38 }
+	color_ui = rgb  { 195 52 38 }
+}
+NAU = { #DONE
+	color = rgb { 125 51 71 }
+	color_ui = rgb  { 125 51 71 }
+}
+KIR = { #DONE
+	color = rgb { 91 9 0 }
+	color_ui = rgb  { 91 9 0 }
+}
+PAU = { #DONE
+	color = rgb { 9 0 173 }
+	color_ui = rgb { 9 0 173 }
+}
+MAR = { #DONE
+	color = rgb { 15 150 255 }
+	color_ui = rgb { 15 150 255 }
+}
+SUD = { #DONE
+	color = rgb { 91 100 0 }
+	color_ui = rgb { 91 100 0 }
+}
+TUN = { #DONE
+	color = rgb { 151 60 50 }
+	color_ui = rgb { 151 60 50 }
+}
+MLT = { #DONE
+	color = rgb { 191 98 145 }
+	color_ui = rgb { 191 98 145 }
+}
+NGA = { #DONE
+	color = rgb { 75 128 97 }
+	color_ui = rgb { 75 128 97 }
+}
+ALG = { #DONE
+	color = rgb { 55 102 55 }
+	color_ui = rgb { 55 102 55 }
+}
+SOM = { #DONE
+	color = rgb { 65 137 221 }
+	color_ui = rgb { 65 137 221 }
+}
+WIN = {
+	color = rgb { 20 116 220 }
+	color_ui = rgb { 20 116 220 }
+}
+TON = {
+	color = rgb { 150 50 55 }
+	color_ui = rgb { 150 50 55 }
 }
 D01 = {
 	color = rgb { 122 179 97 }

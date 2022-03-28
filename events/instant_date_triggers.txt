@@ -70,14 +70,14 @@ country_event = {
 	}
 }
 
-#Dec 24th, 1991
+#Dec 25th, 1991
 country_event = {
 	id = exact_date_trigger.9
 	hidden = yes
 	fire_only_once = yes
 	
 	trigger = {
-		date > 1991.12.23
+		date > 1991.12.24
 	}
 	
 	option = {
