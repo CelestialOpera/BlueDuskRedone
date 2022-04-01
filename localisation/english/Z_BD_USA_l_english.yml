@@ -38,16 +38,17 @@
  USA_communist_DEF:0 "The United States of America"
  USA_communist_adj:0 "American"
  
- USA_national_conservative_party:0 "GOP-Reaganites"
- USA_national_conservative_party_long:0 "Republican Party(Right Wing Republicans)"
+ 
+ USA_national_conservative_party:0 "GOP-Right Wing"
+ USA_national_conservative_party_long:0 "Republican Party(Right Wing Republicans-Reaganite Coalition & Paleoconservatives)"
  USA_moderate_conservative_party:0 "GOP-Moderates"
- USA_moderate_conservative_party_long:0 "Republican Party(Moderate Republicans)"
+ USA_moderate_conservative_party_long:0 "Republican Party(Main Street Republicans)"
  USA_centrist_party:0 "Unaffiliated Moderates"
  USA_centrist_party_long:0 "Unaffiliated Moderate Groups"
  USA_social_liberal_party:0 "D-Moderates"
  USA_social_liberal_party_long:0 "Democratic Party(Moderate Democrats)"
  USA_progressive_party:0 "D-Progressives"
- USA_progressive_party_long:) "Democratic Party(Progressive Democrats)"
+ USA_progressive_party_long:0 "Democratic Party(Progressive Democrats)"
  
  ###Events
  

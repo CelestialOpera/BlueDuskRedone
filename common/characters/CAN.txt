@@ -12,5 +12,19 @@ characters = {
 			id = -1
 		}
 	}
+	
+	CAN_John_Turner = {
+		name = "John Turner" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/CAN/John_Turner.dds"
+			}
+		}
+		country_leader = {
+			ideology = social_liberal_ideology
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
 }
 	

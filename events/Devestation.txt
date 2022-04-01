@@ -195,6 +195,13 @@ news_event = {
 				}
 			}
 			
+			CAN = {
+				country_event = {
+					id = canada.1
+					days = 5
+				}
+			}
+			
 		}
 	}
 

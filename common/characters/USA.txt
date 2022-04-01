@@ -26,5 +26,61 @@ characters = {
 			id = -1
 		}
 	}
+	
+	USA_Jesse_Jackson = {
+		name = "Jesse Jackson" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/USA/Jesse_Jackson.dds"
+			}
+		}
+		country_leader = {
+			ideology = progressive_ideology
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
+	USA_Donald_Rumsfeld = {
+		name = "Donald Rumsfeld" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/USA/Donald_Rumsfeld.dds"
+			}
+		}
+		country_leader = {
+			ideology = moderate_conservative_ideology
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
+	USA_Pat_Buchanan = {
+		name = "Pat Buchanan" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/USA/Pat_Buchanan.dds"
+			}
+		}
+		country_leader = {
+			ideology = national_conservative_ideology
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
+	USA_Ross_Perot = {
+		name = "Ross Perot" 
+		portraits = {
+			civilian={
+				large="gfx/leaders/USA/Ross_Perot.dds"
+			}
+		}
+		country_leader = {
+			ideology = centrist_ideology
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
 }
 	

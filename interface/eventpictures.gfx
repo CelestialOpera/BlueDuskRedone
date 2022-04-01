@@ -200,4 +200,9 @@ spriteTypes = {
 		name = "denmark_svend_auken_debate"
 		texturefile = "gfx/event_pictures/report_event/denmark_svend_auken_debate.dds"
 	}
+	
+	spriteType = {
+		name = "report_Opening_Parliament_CAN"
+		texturefile = "gfx/event_pictures/report_event/Opening_Parliament_CAN.dds"
+	}
 }

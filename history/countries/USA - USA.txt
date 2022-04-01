@@ -2,6 +2,10 @@
 
 recruit_character = USA_Jerry_Brown
 recruit_character = USA_Janet_Reno
+recruit_character = USA_Jesse_Jackson
+recruit_character = USA_Donald_Rumsfeld
+recruit_character = USA_Pat_Buchanan
+recruit_character = USA_Ross_Perot
 
 set_research_slots = 4
 set_stability = 0.75

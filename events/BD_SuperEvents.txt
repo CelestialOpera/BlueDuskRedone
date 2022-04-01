@@ -19,6 +19,7 @@ country_event = {		#Super Event Test
 
         set_global_flag = Super_Event_Visible
         set_global_flag = GLOBAL_NYC_devestation_Super_Event_Visible
+		sound_effect = "DEVESTATION_sound"
 	}
 }
 

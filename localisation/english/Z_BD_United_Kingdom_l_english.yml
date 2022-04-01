@@ -39,6 +39,12 @@
  ENG_communist_adj:0 "British"
  
  
+ ENG_reactionary_nationalist_party:0 "Tory-Powellites"
+ ENG_reactionary_nationalist_party_long:0 "Conservative and Unionist Party(High Tories)"
+ ENG_national_conservative_party:0 "Tory-Dries"
+ ENG_national_conservative_party_long:0 "Conservative and Unionist Party(Dries)"
+ ENG_moderate_conservative_party:0 "Tory-Wets"
+ ENG_moderate_conservative_party_long:0 "Conservative and Unionist Party(Wets)"
  ENG_centrist_party:0 "Liberals"
  ENG_centrist_party_long:0 "Liberal Party of Britain"
  ENG_social_liberal_party:0 "Labour(SocDems)"

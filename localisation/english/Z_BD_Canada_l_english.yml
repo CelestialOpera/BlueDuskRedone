@@ -62,3 +62,9 @@
  CAN_revolutionary_socialist_party_long:0 "Socialist Challenge - Défi socialiste"
  CAN_communist_party:0 "CPC-Marxist-Leninists"
  CAN_communist_party_long:0 "Communist Party of Canada(Marxist-Leninists) - Parti communiste du Canada(Marxistes-Léninistes)"
+ 
+ 
+ #Events
+ canada.1.t:0 "Opening of Parliament"
+ canada.1.d:0 "Not since the 1800s has a Prime Minister died in office, and never in such a horrifying manner. With the opening of parliament, the house was silent, as members of parliament from the entire house mourned the deaths of Justin Trudeau, External Affairs Secretary Allan MacEachen, Prince Andrew, and the many millions more who perished in New York City on Christmas Day. There was no debate this day, just quite and sadness.\n `“While Prime Minister Pierre Trudeau was certainly not supported by all in Canada, this Christmas is a tragedy, his death along with the many others, are a tragedy.` Opposition Leader Joe Clark said in a speech.\nFrom the Liberal side of the aisle there was only one speech, from John Turner, now interim Prime Minister. In which he said that Canada would be taking a great action against who ever perpetrated these attacks, in unison with their American allies and the world. Turners speech, got a roaring applause from the across the house.\nFollowing the break for the day, Turner went on to address the nation once more, reiterating the actions Canada will take in honour of those who lost their lives. He also went on to announce a Liberal Leadership contest to happen in the coming months, with no comment on if he himself would run."
+ canada.1.o1:0 "May They Rest In Peace"

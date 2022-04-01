@@ -1,6 +1,7 @@
 ﻿capital = 276
 
 recruit_character = CAN_Pierre_Trudeau
+recruit_character = CAN_John_Turner
 
 set_stability = 0.6
 set_war_support = 0.1
